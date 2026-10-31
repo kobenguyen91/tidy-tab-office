@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tidy Tab Office</title>
+<meta name="description" content="Your tabs become a tiny office: every tab is a teammate, every tab group a project desk.">
+<style>
+  :root { --bg:#fbfaf7; --fg:#22262e; --muted:#5f6673; --line:#e4e1da; --accent:#5b6cff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181d; --fg:#e8e6e1; --muted:#a3a8b2; --line:#2c3038; --accent:#8f9bff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:900px; margin:0 auto; padding:48px 16px 80px; }
+  header { display:flex; gap:18px; align-items:center; } header img { width:72px; height:72px; border-radius:18px; }
+  h1 { font-size:2.4rem; margin:0; letter-spacing:-.5px; } .muted { color:var(--muted); } a { color:var(--accent); }
+  .shot { width:100%; border-radius:14px; border:1px solid var(--line); margin:32px 0; display:block; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .card { border:1px solid var(--line); border-radius:12px; padding:16px; } .card h3 { margin:0 0 6px; font-size:1.05rem; }
+  footer { margin-top:48px; border-top:1px solid var(--line); padding-top:16px; display:flex; flex-wrap:wrap; gap:18px; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><div><h1>Tidy Tab Office</h1><div class="muted">Your tabs, organized like a tiny office · Văn phòng gọn cho các tab của bạn</div></div></header>
+<img class="shot" src="office-en.png" alt="Tabs shown as teammates sitting at project desks">
+<div class="grid">
+  <div class="card"><h3>Projects first</h3>Every Chrome tab group is a project desk. Drag teammates between desks.</div>
+  <div class="card"><h3>See what needs you</h3>Due notes raise a hand; tabs you rarely use fade out.</div>
+  <div class="card"><h3>Quick find &amp; focus</h3>Alt+Shift+K finds any tab or note. Focus one project, let idle tabs nap.</div>
+  <div class="card"><h3>Private by design</h3>No account, no server. Everything stays in your browser.</div>
+</div>
+<footer>
+  <a href="privacy.html">Privacy policy</a>
+  <a href="calendar-setup.html">Calendar setup</a>
+  <a href="https://github.com/kobenguyen91/tidy-tab-office/issues">Support</a>
+</footer>
+</main>
+</body>
+</html>
